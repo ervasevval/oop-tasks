@@ -4,7 +4,6 @@ namespace InheritanceMinigame.Classes
 {
     public class Goblin : Character
     {
-
         public Goblin(string name) : base(name, 60, 10) { }
 
         public override void PerformAttack(Character target)
